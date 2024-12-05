@@ -1,0 +1,83 @@
+body{
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+.Principal{
+    padding: 5%;
+    background-color: rgb(112, 124, 226);
+}
+
+header {
+    background-color: #C9D6E6;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 60px;
+    padding: 40px 0 0 0;
+    margin: 0;
+}
+
+header img {
+    border-radius: 100%;
+    border: 10px solid #C9D6E6;
+    height: 300px;
+    margin-bottom: 0;
+    z-index: 2;
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+}
+
+header div {
+    background-color: #C9D6E6;
+}
+
+.Col1 {
+    background-color: #EDF3FF;
+    margin: auto;
+    padding: 40px;
+    z-index: 1;
+    max-width: 350px;
+    align-items: center;
+}
+hr {
+    height: 3px;
+    border: #193250;
+    background-color: #193250;
+    width: 80px;
+    margin: 10px 0 10px;
+}
+
+.Col2 {
+    background-color: #FFFFFF;
+    padding: 40px;
+    margin: 0;
+}
+
+.curriculum, .Col1, .Col2{
+    margin: 0;
+}
+
+.curriculum {
+    margin: 0;
+    display: flex;
+}
+
+h1, h2 {
+    color: #193250;
+}
+
+.seccion {
+    text-align: left;
+    display: block;
+    margin: 10px;
+}
+
+ul {
+    padding-left: 0;
+}
+a{
+    color: black;
+}
