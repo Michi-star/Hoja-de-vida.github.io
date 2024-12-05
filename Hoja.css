@@ -81,16 +81,3 @@ ul {
 a{
     color: black;
 }
-.Imagenes img{
-    width: 20px;
-    height: 20px;
-}
-
-.Imagenes{
-    list-style: none;
-}
-.Imagenes li{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
